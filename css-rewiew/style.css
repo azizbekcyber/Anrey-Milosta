@@ -1,0 +1,394 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    height: 200vh;
+}
+.re-container
+{
+    background-image: linear-gradient(#69663A, #323012);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 12px;
+    height: 110vh;
+}
+.re-navbar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.re-items
+{
+    display: flex;
+    list-style: none;
+}
+.re-item
+{
+    margin: 20px;
+    font-size: 20px
+}
+.re-href
+{
+    color: black;
+    text-decoration: none;
+}
+.re-btn
+{
+    background-color: black;
+    width: 100%;
+    height: 90px;
+}
+.wiew-button
+{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.en
+{
+    background-color: #323012;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+.wiew-button h2
+{
+    margin-right: 5px;
+}
+.icon-text
+{
+    display: flex;
+    color: white;
+}
+.element
+{
+    display: flex;
+    justify-content: space-around;
+}
+.fa-location-dot
+{
+    font-size: x-large;
+    margin-right: 20px;
+}
+.fa-envelope
+{
+    font-size: x-large;
+    margin-right: 20px;
+}
+.re-title
+{
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+.re-card
+{
+    display: flex;
+    border: none;
+    font-size: x-large;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: white;
+    margin-top: 30px;
+    width: 80%;
+}
+.mesage
+{
+    font-size: x-large;
+    margin-top: 20px;
+    padding: 20px;
+    width: 80%;
+}
+.re-card-text
+{
+    color: white;
+    margin-top: 10px;
+}
+.re-card i
+{
+    margin-right: 20px;
+    font-size: x-large;
+}
+.fa-telegram
+{
+    color: black;
+}
+.check
+{
+    font-size: xx-large;
+    padding: 20px;
+}
+.rew-card
+{
+    width: 90%;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    transition: 0.5s;
+    color: #323012;
+}
+.rew-card:hover
+{
+    cursor: pointer;
+    background-color: #323012;
+    color: white;
+    border: 1px solid white;
+}
+.rew-card:active
+{
+    background-color: white;
+    color: #323012;
+}
+.footer-btn
+{
+    width: 10%;
+}
+.footer-text
+{
+    display: flex;
+}
+.icon-text-footer
+{
+    display: flex;
+    /* background-color: red; */
+    font-size: 10px;
+    width: 300px;
+    margin-top: 16px;
+}
+.icon-footer-text
+{
+    font-size: 10px;
+    display: flex;
+    margin-top: 16px;
+}
+.re-footer
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.footer-href
+{
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 35px;
+}
+.footer-href li
+{
+    list-style: none;
+}
+.footer-text
+{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.footer-card
+{
+    display: flex;
+    background-color: #323012;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 9px;
+}
+.footer-card i
+{
+    font-size: x-large;
+    margin-right: 10px;
+}
+.the
+{
+    text-align: center;
+}
+@media screen and (max-width: 992px) {
+    body
+    {
+        height: 310vh;
+    }
+    .re-navbar
+    {
+        width: 100%;
+    }
+    .re-item
+    {
+        font-size: 15px;
+    }
+    .wiew-button
+    
+    {
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    border: 2px solid black;
+    border-radius: 5px;
+    }
+    .re-card
+    {
+        margin: 20px auto;
+    }
+    .element
+    {
+        display: block;
+        margin: 0 auto;
+    }
+    .re-container
+    {
+        height: 200vh;
+    }
+    .re-card-matn
+    {
+        text-align: center;
+    }
+    .re-card-text h1
+    {
+        text-align: center;
+    }
+    .re-footer
+    {
+        display: block;
+        
+    }
+    .footer-logo
+    {   
+        display: flex;
+        justify-content: center;
+    }
+    .footer-btn-2
+    {
+        width: 150px;
+        margin-left: 260px;
+        margin-top: 30px;
+    }
+    .icon-text-footer
+    {
+        text-align: center;
+        /* background-color: red; */
+        width: 300px;
+        margin-left: 200px;
+    }
+    .icon-footer-text
+    {
+        text-align: center;
+        /* background-color: red; */
+        width: 300px;
+        margin-left: 250px;
+    }
+    .footer-href
+    {
+        margin: 20px 260px;
+    }
+    .footer-card
+    {
+        width: 70%;
+        margin: 20px auto;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .icon-text
+    {
+        font-size: 10px;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .re-card-text h1
+    {
+        font-size: 20px;
+    }
+    .re-container
+    {
+
+        height: 220vh;
+    }
+    .footer-btn-2
+    {
+        margin-left: 145px;
+    }
+    .footer-href
+    {
+        margin-left: 145px;
+    }
+    .icon-text-footer
+    {
+        margin-left: 115px;
+    }
+    .icon-footer-text
+    {
+        margin-left: 145px;
+    }
+}
+
+@media (max-width: 768px) {
+    .re-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .re-logo img {
+        width: 70px;
+    }
+
+    .re-menu-toggle {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .re-items {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 10px 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .re-items.show {
+        display: block;
+    }
+
+    .re-item {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .re-href {
+        display: block;
+        padding: 10px;
+        transition: 0.3s;
+    }
+    .re-href:hover
+    {
+        background-color: #323012;
+        color: white;
+        border-radius: 8px;
+    }
+
+    .wiew-button {
+        display: none;
+    }
+    .footer-2-there
+    {
+        display: flex;
+        text-align: center;
+    }
+}
